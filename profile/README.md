@@ -10,22 +10,19 @@ This unique architecture creates a symbiotic "best-of-both-worlds" solution, ena
 
 ## Table of Contents
 
-- [The Jubilee Protocol]
-  - [A Hybrid L2/L3 Architecture for Decentralized Asset Management and Permanent Provenance]
-  - [Table of Contents]
-  - [The Problem: A Foundational Compromise]
-  - [The Solution: A Symbiotic Superstructure]
-  - [Protocol Architecture: A Three-Layer Stack]
-    - [L1: The Security & Settlement Layer (Ethereum)]
-    - [L2: The Execution & Programmability Layer (Jubilee)]
-    - [L3: The Data Finality & Archival Layer (Bitcoin)]
-  - [Core Products: The Jubilee Asset Suite]
-    - [jBTCi: The Jubilee Bitcoin Index]
-    - [jETHs: The Jubilee Ethereum Staked Index]
-  - [The $JUBL Token: Governance and Utility]
-  - [Roadmap]
-  - [Security and Risk Factors]
-  - [Disclaimer]
+  - The Problem: A Foundational Compromise
+  - The Solution: A Symbiotic Superstructure
+  - Protocol Architecture: A Three-Layer Stack
+    - L1: The Security & Settlement Layer (Ethereum)
+    - L2: The Execution & Programmability Layer (Jubilee)
+    - L3: The Data Finality & Archival Layer (Bitcoin)
+  - Core Products: The Jubilee Asset Suite
+    - jBTCi: The Jubilee Bitcoin Index
+    - jETHs: The Jubilee Ethereum Staked Index
+  - The $JUBL Token: Governance and Utility
+  - Roadmap
+  - Security and Risk Factors
+  - Disclaimer
 
 ---
 
