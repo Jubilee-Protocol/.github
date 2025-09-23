@@ -4,7 +4,7 @@
 
 Jubilee is a hybrid Layer 2/Layer 3 protocol designed to unify Ethereum's programmability with Bitcoin's permanence. It operates as a high-performance, EVM-compatible ZK-Rollup (L2) on Ethereum while using the Bitcoin blockchain as a Layer 3 (L3) for immutable data anchoring.
 
-This unique architecture creates a symbiotic "best-of-both-worlds" solution, enabling sophisticated DeFi applications with a dual-security proposition previously unseen in the blockchain ecosystem.
+This unique architecture creates a symbiotic "best-of-both-worlds" solution, enabling sophisticated DeFi applications with a dual-security proposition previously unseen in the blockchain ecosystem. For the complete whitepaper, visit [JubileeProtocol.xyz](https://jubileeprotocol.xyz) today.
 
 ---
 
