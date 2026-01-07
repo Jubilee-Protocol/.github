@@ -118,16 +118,15 @@ The **Jubilee Council** governs the protocol—operating like a DAO with on-chai
 
 **Phase 1: "Yoke"** (H2 2025 - H1 2026)  
 Foundation building, testnet launch, community cultivation
+- **January 2026**: jBTCi launch
+- **February 2026**: jUSDi launch  
+- **March 2026**: jETHs launch
 
 **Phase 2: "Harvest"** (H2 2026)  
 Mainnet launch, $JUBL token generation, initial DEX listings
 
-**Phase 3: "Wisdom"** (Q1 2026 - Q2 2027)  
-- **January 2026**: jBTCi launch
-- **February 2026**: jUSDi launch  
-- **March 2026**: jETHs launch
-- Multi-chain deployments (zkSync Era, Base)
-- "Choice Yield" activation for $JUBL stakers
+**Phase 3: "Wisdom"** (H1 2027)  
+Multi-chain deployments (zkSync Era, Base), "Choice Yield" activation for $JUBL stakers
 
 **Phase 4: "Heritage"** (H2 2027+)  
 L3 Bitcoin anchoring, full decentralization, grants program launch
@@ -168,16 +167,14 @@ See our [full whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/ma
 
 Interested in building on Jubilee? Want to participate in governance? Have questions?
 
-- **Developers**: Check our [technical documentation](https://docs.jubilee.protocol) *(coming soon)*
-- **Organizations**: Learn about [Council membership](https://jubilee.protocol/council) *(coming soon)*
-- **Community**: Join the conversation on [Discord](https://discord.gg/jubilee) *(coming soon)*
+- **Community**: Join the conversation on [Discord](https://discord.gg/jubileeprotocol) *(coming soon)*
 
 ---
 
 <p align="center">
-  <strong>Bridging the divide. Building for eternity.</strong>
+  <strong>For the Kingdom.</strong>
 </p>
 
 <p align="center">
-  <sub>© 2024 Hundredfold Foundation. Licensed under MIT.</sub>
+  <sub>2026 © Hundredfold Foundation. Licensed under MIT.</sub>
 </p>
