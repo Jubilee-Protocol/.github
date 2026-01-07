@@ -136,11 +136,10 @@ L3 Bitcoin anchoring, full decentralization, grants program launch
 ## 📚 Learn More
 
 ### Essential Links
-- 📄 **[Full Whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/main/README.md)** — Deep technical documentation
-- 🌐 **Website** — [jubilee.protocol](https://jubilee.protocol) *(coming soon)*
-- 📖 **Documentation** — [docs.jubilee.protocol](https://docs.jubilee.protocol) *(coming soon)*
-- 💬 **Discord** — [Join our community](https://discord.gg/jubilee) *(coming soon)*
-- 🐦 **Twitter** — [@JubileeProtocol](https://twitter.com/JubileeProtocol) *(coming soon)*
+- 📄 **[Full Whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/main/README.md)** 
+- ❌ **X** — [@JubileeProtocol](https://x.com/JubileeProtocol)
+- 🌐 **Website** — [Jubilee Protocol](https://jubileeprotocol.xyz)
+- 💬 **Discord** — [Join our Community](https://discord.gg/jubileeprotocol) *(coming soon)*
 
 ### Open Source
 All code will be open source and available in our repositories. Security is transparent.
@@ -172,7 +171,7 @@ Interested in building on Jubilee? Want to participate in governance? Have quest
 ---
 
 <p align="center">
-  <strong>The Liberty Layer.</strong>
+  <strong>The Liberty Layer</strong>
 </p>
 
 <p align="center">
