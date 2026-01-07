@@ -172,7 +172,7 @@ Interested in building on Jubilee? Want to participate in governance? Have quest
 ---
 
 <p align="center">
-  <strong>Bridging the divide. Building for eternity.</strong>
+  <strong>The Liberty Layer.</strong>
 </p>
 
 <p align="center">
