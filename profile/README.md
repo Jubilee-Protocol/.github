@@ -1,127 +1,183 @@
 # Jubilee Protocol
 
-## A Hybrid L2/L3 Architecture for Decentralized Asset Management and Permanent Provenance
+> **Bridging Ethereum's Programmability with Bitcoin's Permanence**
 
-Jubilee is a hybrid Layer 2/Layer 3 protocol designed to unify Ethereum's programmability with Bitcoin's permanence. It operates as a high-performance, EVM-compatible ZK-Rollup (L2) on Ethereum while using the Bitcoin blockchain as a Layer 3 (L3) for immutable data anchoring.
-
-This unique architecture creates a symbiotic "best-of-both-worlds" solution, enabling sophisticated DeFi applications with a dual-security proposition previously unseen in the blockchain ecosystem. For the complete whitepaper, visit [JubileeProtocol.xyz](https://jubileeprotocol.xyz) today.
+A hybrid L2/L3 architecture delivering automated, yield-generating index products with unprecedented security and data permanence.
 
 ---
 
-## Table of Contents
+## 🎯 The Vision
 
-  - The Problem: A Foundational Compromise
-  - The Solution: A Symbiotic Superstructure
-  - Protocol Architecture: A Three-Layer Stack
-    - L1: The Security & Settlement Layer (Ethereum)
-    - L2: The Execution & Programmability Layer (Jubilee)
-    - L3: The Data Finality & Archival Layer (Bitcoin)
-  - Core Products: The Jubilee Asset Suite
-    - jBTCi: The Jubilee Bitcoin Index
-    - jETHs: The Jubilee Ethereum Staked Index
-  - The $JUBL Token: Governance and Utility
-  - Roadmap
-  - Security and Risk Factors
-  - Disclaimer
+The blockchain ecosystem is fragmented. Ethereum offers programmability but lacks Bitcoin's immutable permanence. Bitcoin provides unmatched security but can't execute complex financial logic. Users and capital are trapped in silos, forced to choose between ecosystems.
+
+**Jubilee Protocol refuses this compromise.** We unite both worlds through a novel three-layer architecture: Ethereum for security and settlement, a high-performance ZK-Rollup for execution, and Bitcoin for permanent data provenance.
 
 ---
 
-## The Problem: A Foundational Compromise
+## 💡 What We Build
 
-The decentralized web has evolved along two separate tracks:
-*   **Ethereum:** The leader for smart contracts, dApps, and DeFi, offering rich programmability.
-*   **Bitcoin:** The most secure and immutable ledger, serving as the ultimate store of value and digital truth.
+### Core Index Products
 
-This division forces a trade-off, leading to siloed liquidity and a fragmented security posture where developers cannot easily leverage the strengths of both networks simultaneously.
+**jBTCi** — The Jubilee Bitcoin Index | *Launching January 2026*  
+A diversified basket of wrapped Bitcoin assets (wBTC, tBTC, cbBTC, jBTC) that generates yield through automated arbitrage between peg deviations. Turn non-yielding BTC into a productive asset.
 
-## The Solution: A Symbiotic Superstructure
+**jUSDi** — The Jubilee USD Index | *Launching February 2026*  
+A stablecoin index combining USDC and DAI, optimized for capital stability while capturing micro-arbitrage opportunities between stablecoin pegs. Stable value meets automated yield.
 
-The Jubilee Protocol bridges this divide by creating a multi-layered system that harmonizes both networks:
-1.  It operates as a high-speed, low-cost ZK-Rollup on Ethereum (L2) for execution.
-2.  It periodically anchors cryptographic hashes of its state to the Bitcoin blockchain (L3) for permanent provenance.
+**jETHs** — The Jubilee Ethereum Staked Index | *Launching March 2026*  
+A diversified portfolio of liquid staking tokens (stETH, rETH, cbETH) earning dual yield: base staking rewards + arbitrage alpha from the Rebalancing Engine.
 
-This allows Jubilee to offer a fast, programmable DeFi environment while anchoring critical data to the most secure ledger ever created, unlocking new forms of capital efficiency and system resilience. The protocol's development is stewarded by the non-profit **Hundredfold Foundation**.
+### Multi-Chain Strategy
 
-## Protocol Architecture: A Three-Layer Stack
+All index products deploy across multiple blockchains—starting with **zkSync Era** (our native home) and **Base** (for deep liquidity access). Each deployment operates independently with optimized rebalancing for its ecosystem, maximizing accessibility and capital efficiency.
 
-Jubilee's innovation lies in its hybrid, multi-layered architecture that leverages the unique strengths of each blockchain.
+---
 
-### L1: The Security & Settlement Layer (Ethereum)
+## 📅 Launch Schedule
 
-Ethereum is the foundational layer, providing the bedrock of security and finality for the entire system.
-*   **State Verification:** Jubilee's state transitions are verified on Ethereum L1 via ZK-SNARKs or ZK-STARKs, ensuring the integrity of every L2 transaction without requiring L1 re-execution.
-*   **Data Availability:** Compressed transaction data is posted to Ethereum as `calldata`, guaranteeing that the L2 state is always fully recoverable.
-*   **Asset Custody:** Immutable smart contracts on Ethereum manage the canonical bridges, locking assets on L1 to mint 1:1 backed assets on Jubilee.
+**Q1 2026 — Product Rollout**
 
-### L2: The Execution & Programmability Layer (Jubilee)
+| Product | Launch Date | Focus |
+|---------|-------------|-------|
+| **jBTCi** | January 2026 | Bitcoin index with automated arbitrage |
+| **jUSDi** | February 2026 | Stablecoin optimization and yield |
+| **jETHs** | March 2026 | Liquid staking diversification |
 
-This is the high-performance environment where all user interactions and application logic reside.
-*   **EVM Compatibility:** Built using the ZK Stack, Jubilee is fully EVM-compatible, allowing developers to deploy existing Solidity contracts and use familiar tools (Hardhat, Foundry) without modification.
-*   **High Throughput & Low Cost:** By processing transactions off-chain, Jubilee dramatically increases throughput and reduces costs compared to direct L1 interactions.
-*   **Native Gas Token:** `jETH`, a bridged representation of ETH, is used for gas fees, aligning incentives between L1 and L2.
+Each launch will be accompanied by comprehensive audits, liquidity bootstrapping, and multi-chain deployments.
 
-### L3: The Data Finality & Archival Layer (Bitcoin)
+---
 
-Bitcoin provides a supplementary layer for data permanence and immutable archival.
-*   **Mechanism:** An off-chain service bundles hashes of L2 state and embeds them into a Bitcoin transaction using the `OP_RETURN` opcode.
-*   **Function:** This creates a permanent, globally verifiable timestamp for critical data, leveraging Bitcoin's immense proof-of-work security. This acts as a "digital notary" service, which is invaluable for auditing, compliance, and high-value contracts.
+## 🏗️ The Architecture
 
-## Core Products: The Jubilee Asset Suite
+### Layer 1: Ethereum
+The bedrock. All security, state verification, and asset custody anchored to Ethereum's battle-tested infrastructure. ZK-proofs ensure every L2 transaction is cryptographically validated on L1.
 
-Jubilee is a platform for a suite of innovative, yield-generating financial products built as composable ERC-4626 tokenized vaults.
+### Layer 2: Jubilee (ZK-Rollup)
+The execution layer. An EVM-compatible environment offering 100x lower costs and higher throughput while inheriting Ethereum's security. Home to our DEX, vaults, and all smart contract logic.
 
-### jBTCi: The Jubilee Bitcoin Index
+### Layer 3: Bitcoin
+The permanence layer. Critical data hashes are periodically anchored to Bitcoin's blockchain via OP_RETURN, creating an immutable audit trail secured by the world's most powerful proof-of-work network. Perfect for compliance, dispute resolution, and long-term archival.
 
-A decentralized index fund that holds a diversified basket of leading Bitcoin representations on Ethereum (e.g., wBTC, tBTC, jBTC). It is designed to systematically exploit minor price deviations between these assets, generating arbitrage profits that accrue to the index holders. This transforms a non-yield-bearing asset into a productive one.
+---
 
-### jETHs: The Jubilee Ethereum Staked Index
+## ⚡ How It Works
 
-A diversified index of yield-bearing, liquid-staked Ethereum (LST) tokens. The value of jETHs grows from two sources:
-1.  The base staking yield from the underlying LSTs.
-2.  Arbitrage alpha generated by trading between LSTs when their prices deviate.
+1. **Users deposit assets** into ERC-4626 vaults (jBTCi, jETHs, jUSDi)
+2. **Rebalancing Engine** monitors markets 24/7 for arbitrage opportunities
+3. **Automated trading** exploits peg deviations across wrapped/staked assets
+4. **Profits compound** back into vaults, increasing NAV for all holders
+5. **Protocol revenue** flows to $JUBL stakers via "Choice Yield"
 
-## The $JUBL Token: Governance and Utility
+All of this happens transparently on-chain with MEV protection, circuit breakers, and multi-layered oracle security.
 
-`$JUBL` is the native utility and governance token of the Jubilee Protocol, designed to be integral to its security, decentralization, and economic sustainability.
+---
 
-*   **Governance:** `$JUBL` holders can vote on critical protocol decisions within the Jubilee DAO.
-*   **Staking:** The token is staked to secure the decentralized sequencer set and the jBTC bridge's TSS network. Stakers are rewarded with a share of protocol revenue and `$JUBL` emissions.
-*   **Fee Discounts:** Can be used to pay for protocol fees at a discounted rate.
-*   **Access to Features:** May be required to access future premium services.
+## 🪙 The $JUBL Token
 
-### Tokenomics
-*   **Total Supply:** 1,000,000,000 `$JUBL`
-*   **Allocation:**
-    *   **Community & Ecosystem:** 40%
-    *   **Staking Rewards:** 25%
-    *   **Foundation & Core Team:** 20%
-    *   **Investors (Private):** 10%
-    *   **Public Sale / Liquidity:** 5%
+The protocol's economic engine and governance token:
 
-## Roadmap
+- **Real Yield**: Stake $JUBL to earn protocol revenue (paid in jBTC/jETH)
+- **Governance**: Participate in protocol decisions through the Jubilee Council
+- **Security**: Required stake for validators, sequencers, and bridge operators
+- **Utility**: Fee discounts and access to premium features
 
-The Jubilee rollout follows a phased, two-year deployment plan:
+**Total Supply**: 1,000,000,000 $JUBL  
+**Emissions**: Logarithmic decay transitioning to revenue-driven yield
 
-1.  **Phase 1: "Yoke" (H2 2025 - H1 2026)**
-    *   **Objective:** Establish core technical infrastructure and cultivate the community.
-    *   **Deliverables:** Core L2 ZK-Rollup contracts, internal audits, and private testnet launch.
+---
 
-2.  **Phase 2: "Harvest" (H2 2026)**
-    *   **Objective:** Launch the Jubilee L2 Mainnet and introduce the `$JUBL` token.
-    *   **Deliverables:** Mainnet deployment, Token Generation Event (TGE), and initial liquidity mining.
+## 🏛️ Governance: Mission-Aligned Stewardship
 
-3.  **Phase 3: "Wisdom" (H1 2027)**
-    *   **Objective:** Deploy the core yield-generating index products (jBTCi, jETHs).
-    *   **Deliverables:** Activation of the Rebalancing Engine and the "Choice Yield" mechanism for stakers.
+The **Jubilee Council** governs the protocol—operating like a DAO with on-chain voting and transparent proposals, but composed of verified, mission-aligned organizations rather than anonymous token holders.
 
-4.  **Phase 4: "Heritage" (H2 2027+)**
-    *   **Objective:** Activate the L3 Bitcoin settlement layer and transition to full community ownership.
-    *   **Deliverables:** Activation of the L3 Settlement Service and progressive decentralization of the Sequencer, Prover, and bridge networks.
+**Council Members**: Bible-believing Christian churches and non-profit organizations committed to long-term stewardship, verified through rigorous KYO (Know Your Organization) processes.
 
-## Security and Risk Factors
+**Why This Model?**
+- Long-term operational horizons (multi-generational thinking)
+- Values-driven decision making beyond market cycles  
+- High attack resistance (requires corrupting real institutions + massive token stake)
+- Reputational accountability from established organizations
 
-Security is paramount and is addressed through a multi-layered model including L1 security from Ethereum, L3 permanence from Bitcoin, economic security via `$JUBL` staking, and rigorous smart contract audits.
+**Community Grants**: $JUBL holders nominate recipients for quarterly grants, with final approval by the Council—directly funding mission-aligned work in the real world.
 
-## Disclaimer
+---
 
-The Jubilee Protocol is under development, and its features, design, and implementation are subject to change. 
+## 🔐 Security First
+
+- ✅ **ZK-Rollup security** inherited from Ethereum L1
+- ✅ **Economic security** through slashable $JUBL stakes
+- ✅ **Multiple external audits** from top-tier firms
+- ✅ **Formal verification** of critical contracts
+- ✅ **Bug bounty program** with substantial rewards
+- ✅ **Oracle circuit breakers** and TWAP safeguards
+- ✅ **Progressive decentralization** roadmap
+
+---
+
+## 🚀 Roadmap
+
+**Phase 1: "Yoke"** (H2 2025 - H1 2026)  
+Foundation building, testnet launch, community cultivation
+
+**Phase 2: "Harvest"** (H2 2026)  
+Mainnet launch, $JUBL token generation, initial DEX listings
+
+**Phase 3: "Wisdom"** (Q1 2026 - Q2 2027)  
+- **January 2026**: jBTCi launch
+- **February 2026**: jUSDi launch  
+- **March 2026**: jETHs launch
+- Multi-chain deployments (zkSync Era, Base)
+- "Choice Yield" activation for $JUBL stakers
+
+**Phase 4: "Heritage"** (H2 2027+)  
+L3 Bitcoin anchoring, full decentralization, grants program launch
+
+---
+
+## 📚 Learn More
+
+### Essential Links
+- 📄 **[Full Whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/main/README.md)** — Deep technical documentation
+- 🌐 **Website** — [jubilee.protocol](https://jubilee.protocol) *(coming soon)*
+- 📖 **Documentation** — [docs.jubilee.protocol](https://docs.jubilee.protocol) *(coming soon)*
+- 💬 **Discord** — [Join our community](https://discord.gg/jubilee) *(coming soon)*
+- 🐦 **Twitter** — [@JubileeProtocol](https://twitter.com/JubileeProtocol) *(coming soon)*
+
+### Open Source
+All code will be open source and available in our repositories. Security is transparent.
+
+---
+
+## 🙏 Our Mission
+
+Jubilee Protocol is stewarded by the **Hundredfold Foundation**, a non-profit dedicated to building resilient, open, and equitable financial infrastructure aligned with Christian principles of service, integrity, and community welfare.
+
+We believe DeFi should serve communities, not extract from them. We're building for generations, not quarters.
+
+---
+
+## ⚠️ Disclaimer
+
+This is experimental software. Blockchain technology carries inherent risks including smart contract vulnerabilities, market volatility, and regulatory uncertainty. Use at your own risk. Nothing here constitutes financial advice.
+
+See our [full whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/main/README.md) for comprehensive risk disclosures.
+
+---
+
+## 🤝 Get Involved
+
+Interested in building on Jubilee? Want to participate in governance? Have questions?
+
+- **Developers**: Check our [technical documentation](https://docs.jubilee.protocol) *(coming soon)*
+- **Organizations**: Learn about [Council membership](https://jubilee.protocol/council) *(coming soon)*
+- **Community**: Join the conversation on [Discord](https://discord.gg/jubilee) *(coming soon)*
+
+---
+
+<p align="center">
+  <strong>Bridging the divide. Building for eternity.</strong>
+</p>
+
+<p align="center">
+  <sub>© 2024 Hundredfold Foundation. Licensed under MIT.</sub>
+</p>
