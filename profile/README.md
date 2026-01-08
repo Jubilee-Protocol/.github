@@ -18,8 +18,8 @@ The blockchain ecosystem is fragmented. Ethereum offers programmability but lack
 
 ### Core Index Products
 
-**jBTCi** — The Jubilee Bitcoin Index | *Launching January 2026*  
-A diversified basket of wrapped Bitcoin assets (wBTC, tBTC, cbBTC, jBTC) that generates yield through automated arbitrage between peg deviations. Turn non-yielding BTC into a productive asset.
+**jBTCi** — [The Jubilee Bitcoin Index | *Live Now*](https://mint.jbtci.xyz)  
+A diversified basket of wrapped Bitcoin assets (wBTC and cbBTC) that generates yield through automated arbitrage between peg deviations. Turn non-yielding BTC into a productive asset.
 
 **jUSDi** — The Jubilee USD Index | *Launching February 2026*  
 A stablecoin index combining USDC and DAI, optimized for capital stability while capturing micro-arbitrage opportunities between stablecoin pegs. Stable value meets automated yield.
