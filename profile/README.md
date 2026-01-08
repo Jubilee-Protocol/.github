@@ -25,7 +25,7 @@ A diversified basket of wrapped Bitcoin assets (wBTC and cbBTC) that generates y
 A stablecoin index combining USDC and DAI, optimized for capital stability while capturing micro-arbitrage opportunities between stablecoin pegs. Stable value meets automated yield.
 
 **jETHs** — The Jubilee Ethereum Staked Index | *Launching March 2026*  
-A diversified portfolio of liquid staking tokens (stETH, rETH, cbETH) earning dual yield: base staking rewards + arbitrage alpha from the Rebalancing Engine.
+A diversified portfolio of liquid staking tokens, creating a earning dual yield opportunity: base staking rewards + arbitrage alpha from the Rebalancing Engine.
 
 ### Multi-Chain Strategy
 
