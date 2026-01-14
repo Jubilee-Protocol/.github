@@ -139,7 +139,6 @@ L3 Bitcoin anchoring, full decentralization, grants program launch
 - 📄 **[Full Whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/main/README.md)** 
 - ❌ **X** — [@JubileeProtocol](https://x.com/JubileeProtocol)
 - 🌐 **Website** — [Jubilee Protocol](https://jubileeprotocol.xyz)
-- 💬 **Discord** — [Join our Community](https://discord.gg/jubileeprotocol) *(coming soon)*
 
 ### Open Source
 All code will be open source and available in our repositories. Security is transparent.
