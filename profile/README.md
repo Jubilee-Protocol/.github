@@ -161,14 +161,6 @@ See our [full whitepaper](https://github.com/Jubilee-Protocol/whitepaper/blob/ma
 
 ---
 
-## 🤝 Get Involved
-
-Interested in building on Jubilee? Want to participate in governance? Have questions?
-
-- **Community**: Join the conversation on [Discord](https://discord.gg/jubileeprotocol) *(coming soon)*
-
----
-
 <p align="center">
   <strong>The Liberty Layer</strong>
 </p>
