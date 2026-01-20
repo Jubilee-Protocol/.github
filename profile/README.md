@@ -29,7 +29,7 @@ A diversified portfolio of liquid staking tokens, creating a earning dual yield 
 
 ### Multi-Chain Strategy
 
-All index products deploy across multiple blockchains—starting with **zkSync Era** (our native home) and **Base** (for deep liquidity access). Each deployment operates independently with optimized rebalancing for its ecosystem, maximizing accessibility and capital efficiency.
+All index products deploy across multiple blockchains—**zkSync Era**, **Base**, and **Solana**. Each deployment operates independently with optimized rebalancing for its ecosystem, maximizing accessibility and capital efficiency.
 
 ---
 
