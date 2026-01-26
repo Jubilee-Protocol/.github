@@ -18,16 +18,16 @@ The blockchain ecosystem is fragmented. Ethereum offers programmability but lack
 
 ### Core Index Products
 
-**jBTCi** — [The Jubilee Bitcoin Index | *Live Now*](https://mint.jbtci.xyz)  
+**jBTCi** — [The Jubilee Bitcoin Index | *Live Now*](https://www.jbtci.xyz)  
 A diversified basket of wrapped Bitcoin assets (wBTC and cbBTC) that generates yield through automated arbitrage between peg deviations. Turn non-yielding BTC into a productive asset.
 
-**jSOLi** — The Jubilee Solana Staked Index | *Launching February 2025*  
+**jSOLi** — [The Jubilee Solana Staked Index | *Devnet Now*](https://www.jsoli.xyz)  
 Solana's first auto-rebalancing LST aggregator. Combines Jito's MEV rewards, Marinade's decentralization, and BlazeStake's yield optimization into a single token. Get 8-12% APY without choosing between protocols—jSOLi automatically rebalances to maximize returns while minimizing concentration risk. The S&P 500 of Solana staking.
 
-**jETHs** — The Jubilee Ethereum Staked Index | *Launching February 2025*  
+**jETHs** — [The Jubilee Ethereum Staked Index | *Testnet Now*](https://jeths.xyz)  
 Ethereum's first auto-rebalancing LST aggregator. Combines stETH's liquidity, rETH's decentralization, and cbETH's institutional backing. Earn 6-9% APY while the Rebalancing Engine automatically optimizes across protocols. Set-and-forget Ethereum staking for maximum efficiency.
 
-**jUSDi** — The Jubilee USD Index | *Launching March 2025*  
+**jUSDi** — The Jubilee USD Index | *Launching March 2026*  
 A stablecoin index optimized for capital stability while capturing micro-arbitrage opportunities between stablecoin pegs. Earn 4-7% APY on dollar-denominated holdings without depegging risk. Stable value meets automated yield.
 
 ### Multi-Chain Strategy
