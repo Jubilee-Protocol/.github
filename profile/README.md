@@ -31,7 +31,7 @@ Ethereum's first auto-rebalancing LST aggregator. Combines stETH's liquidity, rE
 A stablecoin index optimized for capital stability while capturing micro-arbitrage opportunities between stablecoin pegs. Earn 4-7% APY on dollar-denominated holdings without depegging risk. Stable value meets automated yield.
 
 ### Multi-Chain Strategy
-All index products deploy across multiple blockchains—**Solana**, **Base**, and **zkSync Era**. Each deployment operates independently with ecosystem-optimized rebalancing, maximizing accessibility and capital efficiency across chains.
+All index products deploy across multiple blockchains—**Base**, **Solana**, **Ethereum**, and **zkSync Era**. Each deployment operates independently with ecosystem-optimized rebalancing, maximizing accessibility and capital efficiency across chains.
 
 ---
 
