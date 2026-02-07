@@ -27,7 +27,7 @@ Solana's first auto-rebalancing LST aggregator. Combines Jito's MEV rewards, Mar
 **jETHs** — [The Jubilee Ethereum Staked Index | *Testnet Now*](https://jeths.xyz)  
 Ethereum's first auto-rebalancing LST aggregator. Combines stETH's liquidity, rETH's decentralization, and cbETH's institutional backing. Earn 6-9% APY while the Rebalancing Engine automatically optimizes across protocols. Set-and-forget Ethereum staking for maximum efficiency.
 
-**jUSDi** — The Jubilee USD Index | *Launching March 2026*  
+**jUSDi** — [The Jubilee USD Index | *Live on Base | Devnet on Solana | Testnet on Ethereum*](https://jusdi.xyz)  
 A stablecoin index optimized for capital stability while capturing micro-arbitrage opportunities between stablecoin pegs. Earn 4-7% APY on dollar-denominated holdings without depegging risk. Stable value meets automated yield.
 
 ### Multi-Chain Strategy
@@ -43,7 +43,7 @@ All index products deploy across multiple blockchains—**Base**, **Solana**, **
 |---------|-------------|-------|
 | **jBTCi** | January 2026 | Bitcoin index with automated arbitrage |
 | **jUSDi** | February 2026 | Stablecoin optimization and yield |
-| **jETHs** | March 2026 | Liquid staking diversification |
+| **jETHs + jSOLi** | March 2026 | Liquid staking diversification |
 
 Each launch will be accompanied by comprehensive audits, liquidity bootstrapping, and multi-chain deployments.
 
@@ -122,7 +122,7 @@ The **Jubilee Council** governs the protocol—operating like a DAO with on-chai
 Foundation building, testnet launch, community cultivation
 - **January 2026**: jBTCi launch
 - **February 2026**: jUSDi launch  
-- **March 2026**: jETHs launch
+- **March 2026**: jETHs + jSOLi launch
 
 **Phase 2: "Harvest"** (H2 2026)  
 Mainnet launch, $JUBL token generation, initial DEX listings
