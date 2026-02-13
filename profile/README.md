@@ -1,6 +1,6 @@
 # Jubilee Protocol
 
-> **The Stewardship Layer for the Digital Economy**
+> **The Liberty Layer**
 
 **Jubilee Protocol is an institutional-grade application layer that unifies Ethereum’s programmability with Bitcoin’s permanence. We build automated, yield-generating financial products on secure Layer 2s, providing the tools for responsible stewardship in the digital age.**
 
